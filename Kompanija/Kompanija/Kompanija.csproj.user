@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\DodajProjekatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DodajRadnikaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormirajTimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\IzmeniProjekatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\IzmeniRadnikaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ProjekatVodjaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RadniciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RadnikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SefForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TimoviForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TimoviWideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\TimVodjaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\VodjaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ProjektiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ZadajZadatakForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

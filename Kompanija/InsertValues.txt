@@ -1,0 +1,45 @@
+INSERT INTO kompanija."Sef" ("idSefa", "email", "ime", "jmbg", "prezime", "racun", "telefon")
+VALUES (
+    '1',
+    'marko@sef.com',
+    'Marko',
+    '213229898982',
+    'Tasic',
+    '32123223',
+    '2343');
+
+INSERT INTO kompanija."Sef" ("idSefa", "email", "ime", "jmbg", "prezime", "racun", "telefon")
+VALUES (
+    '2',
+    'milan@sef.com',
+    'Milan',
+    '124124124124',
+    'Stevanovic',
+    '12312312',
+    '2231');
+
+INSERT INTO kompanija."Login" ("email", "sifra", "tip")
+VALUES (
+    'marko@sef.com',
+    '123',
+    'sef');
+INSERT INTO kompanija."Login" ("email", "sifra", "tip")
+VALUES (
+    'milan@sef.com',
+    '123',
+    'sef');
+INSERT INTO kompanija."Login" ("email", "sifra", "tip")
+VALUES (
+    'marko@vodja.com',
+    '123',
+    'vodja');
+INSERT INTO kompanija."Login" ("email", "sifra", "tip")
+VALUES (
+    'milan@vodja.com',
+    '123',
+    'vodja');
+
+INSERT INTO kompanija."Vodja" ("idVodje",email, ime, prezime, jmbg, racun, telefon,plata,slobodan)
+VALUES ('1','marko@vodja.com' ,'Marko','Tasic', '1234588889', '55663', '06418000','200000','da');
+INSERT INTO kompanija."Vodja" ("idVodje",email, ime, prezime, jmbg, racun, telefon, plata, slobodan)
+VALUES ('2','milan@vodja.com' ,'Milan','Stevanovic', '12345889', '5663', '06410000','100000','da');
